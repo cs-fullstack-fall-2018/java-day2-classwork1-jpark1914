@@ -14,6 +14,11 @@ public class Exercise9 {
              password = scanIn.nextLine();
             System.out.println("Please confirm password");
              confirmPass = scanIn.nextLine();
+             if(confirmPass.equals(password)){
+                 System.out.println("That's Correct");
+             }else{
+                 continue;
+             }
 
         }
 
